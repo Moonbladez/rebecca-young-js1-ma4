@@ -8,7 +8,6 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const inputValueLength = firstName.value.length
-    console.log(inputValueLength);
     if (inputValueLength < 2) {
         errorBox.style.display = "block"
         //empty value
